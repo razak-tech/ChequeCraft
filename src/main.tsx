@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename={(import.meta as any).env?.BASE_URL ?? '/'}>
+    <BrowserRouter basename="/ChequeCraft/">
       <App />
     </BrowserRouter>
   </React.StrictMode>,

@@ -1,0 +1,61 @@
+{
+  "template": {
+    "width": 175,
+    "height": 80
+  },
+  "fields": [
+    {
+      "id": "name",
+      "label": "Pay to the order of",
+      "type": "text",
+      "required": true,
+      "position": { "x": 31.327, "y": 32.427 },
+      "width": 84.3,
+      "height": 4.3,
+      "fontSize": 12,
+      "maxLength": 50
+    },
+    {
+      "id": "date",
+      "label": "Date",
+      "type": "date",
+      "required": true,
+      "position": { "x": 140.123, "y": 37.846 },
+      "width": 21.8,
+      "height": 6.1,
+      "fontSize": 10
+    },
+    {
+      "id": "address",
+      "label": "Address",
+      "type": "text",
+      "required": false,
+      "position": { "x": 111.337, "y": 37.846 },
+      "width": 27.9,
+      "height": 6.1,
+      "fontSize": 12,
+      "maxLength": 100
+    },
+    {
+      "id": "amount",
+      "label": "Amount (Numbers)",
+      "type": "number",
+      "required": true,
+      "position": { "x": 128.693, "y": 6.858 },
+      "width": 39.2,
+      "height": 4.6,
+      "fontSize": 12
+    },
+    {
+      "id": "amountWords",
+      "label": "Amount in Words",
+      "type": "text",
+      "required": false,
+      "position": { "x": 42.164, "y": 19.389 },
+      "width": 102.0,
+      "height": 5.2,
+      "fontSize": 10,
+      "maxLength": 100
+    }
+  ]
+}

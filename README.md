@@ -1,4 +1,5 @@
 # ChequeCraft (Cheque Generator)
+---> https://razak-tech.github.io/ChequeCraft/
 
 A lightweight React + Vite web/Electron app to create, format, and print cheques with an integrated AI chat assistant for guidance (amounts in words, formatting tips, etc.).
 
